@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="regf.js"></script>
+    </head>
+    <body>
+        <h1>Reg Form</h1>
+        <form name="regform" onsubmit="valid();">
+            <ul>
+            <li><label for="fname" id="fname">First name: </label>
+            <input type="text" name="fname"></li>
+
+            <li><label for="sname" id="sname">Second name: </label>
+            <input type="text" name="sname"></li>
+
+            <li><label for="email" id="email">Email: </label>
+            <input type="text" name="email"></li>
+
+            <li><label for="dob" id="dob">Date of Birth: </label>
+            <input type="date" name="dob"></li>
+
+            <li><label for="sex" id="sex">Sex:</label>
+            <input type="radio" name="gender" value="male"/>Male
+            <input type="radio" name="gender" value="female"/>Female
+            <input type="radio" name="gender" value="other"/>Other</li>
+
+            <li><label for="skills" id="skills">Skills: </label></li>
+            <li><input type="checkbox" name="skills"/>C++</li>
+            <li><input type="checkbox" name="skills"/>JavaScript</li>
+            <li><input type="checkbox" name="skills"/>Python</li>
+            <li><input type="checkbox" name="skills"/>PHP</li>
+            <li><input type="checkbox" name="skills"/>Java</li>
+            <li><input type="checkbox" name="skills"/>Satanism</li>
+
+            <li><input type="submit" name="submit" value="Sumbit"/></li>
+            </ul>
+        </form>
+
+            <li id="err1"></li>
+
+    </body>
+</html>
